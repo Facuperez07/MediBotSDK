@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# MuJoCo external repository (clonar por separado de https://github.com/unitreerobotics/unitree_mujoco)
+unitree_mujoco/
+
+# Android / Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+local.properties
+.cxx/
+capture/
+*.apk
+*.aab
+
+# IDE & Editors
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
